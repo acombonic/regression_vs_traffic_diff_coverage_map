@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "acombonic-featplat_jd099"
+name = "acombonic-regression_vs_traffic_diff_coverage_map"
 version = "0.1.0"
 description = "把候选项映射到类别上，算出特征平台工程师·回归集与线上样本的差分的覆盖率并列出未覆盖的类别"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://acombonic.github.io"
-Repository = "https://github.com/acombonic/featplat_jd099"
-Issues = "https://github.com/acombonic/featplat_jd099/issues"
+Repository = "https://github.com/acombonic/regression_vs_traffic_diff_coverage_map"
+Issues = "https://github.com/acombonic/regression_vs_traffic_diff_coverage_map/issues"
 
 [project.scripts]
-featplat_jd099 = "featplat_jd099:main"
+regression_vs_traffic_diff_coverage_map = "regression_vs_traffic_diff_coverage_map:main"
 
 [tool.setuptools]
-py-modules = ["featplat_jd099"]
+py-modules = ["regression_vs_traffic_diff_coverage_map"]

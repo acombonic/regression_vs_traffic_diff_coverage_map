@@ -1,11 +1,11 @@
-# featplat_jd099
+# regression_vs_traffic_diff_coverage_map
 
 **映射特征平台工程师·回归集与线上样本的差分的覆盖情况并找出未覆盖的部分。**
 
-`featplat_jd099` —— 把候选项映射到类别上，算出特征平台工程师·回归集与线上样本的差分的覆盖率并列出未覆盖的类别
+`regression_vs_traffic_diff_coverage_map` —— 把候选项映射到类别上，算出特征平台工程师·回归集与线上样本的差分的覆盖率并列出未覆盖的类别
 
 - 零依赖，Python 3.10+ 标准库即可运行
-- 单文件，`featplat_jd099.py` 拷走就能用
+- 单文件，`regression_vs_traffic_diff_coverage_map.py` 拷走就能用
 - 不联网、不写文件
 
 ## 对应的岗位
@@ -23,16 +23,16 @@
 零依赖，Python 3.10+ 即可：
 
 ```bash
-pip install acombonic-featplat_jd099
+pip install acombonic-regression_vs_traffic_diff_coverage_map
 ```
 
 装完直接用命令名调用：
 
 ```bash
-featplat_jd099 --help
+regression_vs_traffic_diff_coverage_map --help
 ```
 
-也可以不用安装，直接把 `featplat_jd099.py` 拷走用——它只依赖标准库。
+也可以不用安装，直接把 `regression_vs_traffic_diff_coverage_map.py` 拷走用——它只依赖标准库。
 
 ## 为什么需要它
 
@@ -47,9 +47,9 @@ featplat_jd099 --help
 ## 用法
 
 ```bash
-python featplat_jd099.py --file input.txt
-python featplat_jd099.py --text "示例内容"
-python featplat_jd099.py --file input.txt --json
+python regression_vs_traffic_diff_coverage_map.py --file input.txt
+python regression_vs_traffic_diff_coverage_map.py --text "示例内容"
+python regression_vs_traffic_diff_coverage_map.py --file input.txt --json
 ```
 
 加 `--json` 可以拿到机器可读的结果，便于接到流水线里。
@@ -62,7 +62,7 @@ python featplat_jd099.py --file input.txt --json
 ## 跑测试
 
 ```bash
-python test_featplat_jd099.py
+python test_regression_vs_traffic_diff_coverage_map.py
 ```
 
 测试用独立的断言与临时数据，不污染工作目录。
@@ -70,7 +70,7 @@ python test_featplat_jd099.py
 ## 来源与参考
 
 - Python 标准库文档：<https://docs.python.org/3/>
-- GitHub 仓库：<https://github.com/acombonic/featplat_jd099>
+- GitHub 仓库：<https://github.com/acombonic/regression_vs_traffic_diff_coverage_map>
 
 ---
 
@@ -79,7 +79,7 @@ python test_featplat_jd099.py
 acombonic 做特征平台工程师·回归集与线上样本的差分相关的问题，方向对标零一万物的中级特征平台工程师岗位。这个工具先替你回答一个具体问题，再谈别的。
 
 - 个人主页：<https://acombonic.github.io>
-- 仓库：<https://github.com/acombonic/featplat_jd099>
+- 仓库：<https://github.com/acombonic/regression_vs_traffic_diff_coverage_map>
 
 ## 许可
 
